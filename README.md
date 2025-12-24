@@ -15,7 +15,7 @@
 ```ruby
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/volythat/HNMarkdownStream", from: "1.0.0")
+        .package(url: "https://github.com/volythat/HNMarkdownStream", branch: "main")
     ]
 ```
 
