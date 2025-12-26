@@ -36,7 +36,7 @@ public class HNCodeBlockView: UIView {
         addSubview(containerStack)
         
         // Header
-        headerView.backgroundColor = UIColor.secondarySystemBackground.withAlphaComponent(0.8) // Slightly different header color
+        headerView.backgroundColor = theme.codeBackgroundColor // Slightly different header color
         headerView.translatesAutoresizingMaskIntoConstraints = false
         headerView.heightAnchor.constraint(equalToConstant: 40).isActive = true
         
